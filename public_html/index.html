@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Voice Commands</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        #hello, #help{
+            display: none;
+        }
+        .navbar-header {
+            color: silver;
+            font-size: 1.5em;
+            padding: 0.5em;
+        }
+        .navbar-nav li {
+            color: white;
+            padding: 0.5em;
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation" id="help">
+      <div class="container">
+        <div class="navbar-header">          
+          Commands:
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+             <li>hello</li>
+                <li>down</li>
+                <li>up</li>
+                <li>stop</li>
+                <li>close(help)</li>
+                <li>open</li>
+                <li>show cars</li>
+                <li>show holes</li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+
+    <div class="container" id="hello">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+          
+          <div class="jumbotron">
+            <h1>Hello and Welcome</h1>
+            <h1>Say <em>"help"</em> for a list of commands.  </h1>
+                <p>Response time might have a slight delay. This page uses the annyang framework</p>
+                
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+          
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                    
+           <div class="jumbotron" id="cars">
+            <h1>cars</h1>
+            <p>
+                <img src="img/download.jpg" />
+                <img src="img/download2.jpg" />
+                
+            </p>
+          </div>
+          
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          
+           <div class="jumbotron" id="donuts">
+            <h1>Yummy</h1>
+            <p>
+                <img src="img/dounut2.jpg" />
+                <img src="img/dounut.jpg" />
+                
+            </p>
+          </div>
+          
+        </div><!--/span-->
+
+       
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/annyang.js"></script>
+    
+    
+    
+    <script type="text/javascript">
+            if (annyang) {
+                var timer, scrollPage = false, scrollPos = window.scrollY;
+            // Let's define our first command. First the text we expect, and then the function it should call
+            var commands = {
+              "hello" : function() {
+                $('#hello').show('slow');
+              },
+              "down" : function() {
+                  scrollPage = true;
+                  scrollDown();
+              },
+              "stop" : function() {
+                   scrollStop();
+              },
+              "up" : function() {
+                  scrollPos = window.scrollY;
+                  scrollPage = true;
+                  scrollUp();
+              },
+              "help" : function() {
+                  showHelp();
+              },
+              "close" : function() {
+                  closeHelp();
+              },
+               "open" : function() {
+                  window.open('https://www.talater.com/annyang/');
+              },
+              "show *term": showME
+             
+            };
+
+            // Add our commands to annyang
+            annyang.addCommands(commands);
+            annyang.debug();
+            // Start listening. You can call this here, or attach this call to an event, button, etc.
+            annyang.start();
+          } 
+          
+          function scrollDown() {
+              if ( scrollPage && (window.innerHeight + window.scrollY) < document.body.offsetHeight ) {                  
+                  window.scrollBy(0,50); // horizontal and vertical scroll increments
+                  timer = setTimeout(scrollDown,100); // scrolls every 100 milliseconds
+              } else {
+                  scrollStop();
+              }
+          }
+          
+          function scrollStop() {
+               scrollPage = false;
+               clearTimeout(timer);
+          }
+          
+          
+          function scrollUp() {
+              
+              if ( scrollPage && scrollPos > 0 ) {                  
+                  scrollPos -= 50;
+                  window.scroll(0,scrollPos); // horizontal and vertical scroll increments
+                  timer = setTimeout(scrollUp,100); // scrolls every 100 milliseconds
+              } else {
+                   scrollStop();
+              }
+          }
+          
+          function showHelp() {
+              $('#help').show('slow');
+          }
+          
+          function closeHelp() {
+              $('#help').hide('slow');
+          }
+          
+          function showME(term){
+              
+              switch(term) {
+                  
+                   case 'cars':
+                       
+                       document.getElementById('cars').scrollIntoView();
+                        
+                        break; 
+                    case 'holes':
+                        document.getElementById('donuts').scrollIntoView();
+                        
+                        break; 
+                   
+                                         
+              }
+              
+          }
+          
+        </script>
+   
+  </body>
+</html>
